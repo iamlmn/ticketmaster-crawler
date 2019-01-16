@@ -1,6 +1,6 @@
 # ticketmaster-crawler
 
-pip install requirements.txt
+<h2>pip install requirements.txt</h2>
 
 python run.py 
 the above script calls the ticketmaster events fetcher using shell commands for different classes within a period of time and also invokes static map image downloader.
