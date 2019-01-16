@@ -2,17 +2,17 @@
 
 A crawler using ticket-master api architectured to get all the events in US throughout without exceeding the qouta limit.
 
-###Necessary packages to be installed
+### Necessary packages to be installed
 * pandas 
 * ticketpy
 * cv2
 * tqdm
 
-###To install the neccessary dependencies, please run the following command.
+### To install the neccessary dependencies, please run the following command.
 
 ```pip install requirements.txt```
 
-###To run the crawler, enter the following command in the terminal:
+### To run the crawler, enter the following command in the terminal:
 ```python run.py```
 
 > the above script calls the ticketmaster events fetcher using shell commands for different classes within a period of time and also invokes static map image downloader.
