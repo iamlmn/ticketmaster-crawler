@@ -20,6 +20,7 @@ A crawler using ticket-master api architectured to get all the events in US thro
 
 ```python ticketmaster_eventsfetcher.py <Class> [start-date] [end-date] [filename]```
 usage-
+![Alt text](https://github.com/lmn171194/ticketmaster-crawler/edit/master/usage.jpg?raw=true "Title")
 
   > the ticketmaster_eventsfetcher.py script fetches the event,venue and other required details based on the classifier we give like 'Music' or 'Sports' within the start date and end date given as an argument to the program. if start and end date is not mentioned it will take the current date and end date as current months last date.The output will be saved in the same directory in csv formats.
   
