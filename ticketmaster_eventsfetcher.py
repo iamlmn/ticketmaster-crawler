@@ -131,8 +131,8 @@ def EventFiner(classifier,start_date,end_date,mon):
 
         time.sleep(1)
 
-    df.to_csv('TicketMaster_'+classifier+'_data'+str(mon)+'.csv')
-    
+    df.to_csv('TicketMaster_'+classifier+'_data_'+str(mon)+'.csv')
+
 def data_cleansing(classifier,startdate,enddate):
     '''
         Data cleaning code
@@ -144,19 +144,7 @@ def validate_args(**kwargs):
     Method to validate classifier & date
 
     '''
-'''def concatenate_csv(path,classifier):
-    fin=pd.DataFrame()
-    for file in glob.glob('TicketMaster_'+classifier+'_data*.csv'):
-    df=pd.read_csv(file)
-    df['sheet']=str(file)
-    print(len(df),file)
-    if len(fin)<2:
-        fin=df
-    else:
-        fin=fin.append(df)
-    #fin.to_csv('finalconcatenated.txt',sep='\t')
-    fin.to_csv(str(path)+'ticketmaster_'+str(classifier)+'2019.csv',index=False) 
-'''
+
 if __name__=='__main__':
 
     #args = parser.parse_args()
