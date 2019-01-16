@@ -1,6 +1,11 @@
 # ticketmaster-crawler
 
-<h2>pip install requirements.txt</h2>
+A crawler using ticket-master api architectured to get all the events in US throughout without exceeding the qouta limit.
+
+```pip install requirements.txt```
+*pandas 
+*ticketpy==
+*cv2
 
 ```python run.py``` 
 > the above script calls the ticketmaster events fetcher using shell commands for different classes within a period of time and also invokes static map image downloader.
