@@ -2,7 +2,7 @@
 
 A crawler using ticket-master api architectured to get all the events in US throughout without exceeding the qouta limit.
 
-### Necessary packages to be installed
+### Neccessary packages to be installed
 * pandas 
 * ticketpy
 * cv2
